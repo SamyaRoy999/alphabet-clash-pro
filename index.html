@@ -50,7 +50,7 @@
                             </p> 
                            
                         </div>
-                        <p id="rendom-alphabet" class="text-8xl text-black font-bold flex justify-center mt-11 ">Y</p>
+                        <p id="rendom-alphabet" class="text-8xl text-black font-bold flex justify-center mt-11  uppercase">Y</p>
                     </div>
                 </div>
                 <!-- artbord end-->
@@ -94,21 +94,21 @@
                     <button class="btn rounded-full px-7 bg-[#894189] border-none text-white">
                         Life
                         <img src="./images/love.svg" alt="">
-                        <span>1</span>
+                        <span id="crentLife">5</span>
                     </button>
-                    <button class="btn rounded-full px-7 bg-[#360490] border-none text-white">
+                    <button  class="btn rounded-full px-7 bg-[#360490] border-none text-white">
                         Score
                         <img src="./images/dolor.svg" alt="">
-                        <span>1</span>
+                        <span id="crentScore">0</span>
                     </button>
                 </div>
             </div>
         </section>
-        <section class="flex justify-center min-h-screen items-center hidden">
+        <section id="score-section" class="flex justify-center min-h-screen items-center hidden">
             <div class="bg-[#7736D3] p-14 text-center rounded-2xl">
-                <h1 class="text-6xl text-white font-extrabold">Score :<span>14</span></h1>
-                <button class="btn w-28 text-lg my-3">play Now</button>
-                <p class="text-white text-lg">Practice will make you Pro</p>
+                <h1 class="text-8xl text-white font-extrabold">Score :<span id="tolal-scorc">0</span></h1>
+                <button  class="btn w-36 text-lg my-6" onclick="play()">play Now</button>
+                <p class="text-white text-2xl">Practice will make you Pro</p>
             </div>
         </section>
     </main>
